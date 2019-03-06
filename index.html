@@ -14,14 +14,15 @@
     
 <nav class="navbar navbar-expand-lg fixed-top" style="background-color:#1e152a;">
   <a class="navbar-brand" href="#" style="color:white;">Francine Lapid</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="background-color:white;">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <button class="navbar-toggler navbar-toggler-right text-uppercase text-black rounded" style="background-color:white;color:1e152a;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+  <div class="collapse navbar-collapse" id="navbarResponsive">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item">
-        <a class="nav-link" href="#" style="color:white;">About</a>
+        <a class="nav-link" href="#about" style="color:white;" >About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" style="color:white;">Experience</a>
@@ -46,25 +47,28 @@
     </div>
   </header>
   
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+<section class="mb-0" id="about" style="background-color:white;padding-top:30px;padding-bottom:20px">
+    <div class="container" style="color:black;">
+      <h2 class="text-center text-uppercase">About</h2>
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <p class="lead">Howdy! My name is Francine Lapid and I am a student at Texas A&amp;M University. I am currently in the process of finishing my Bachelor of Science in Computer Engineering. I am going to graduate in May 2019.</p>
+        </div>
+        <div class="col-lg-4 ml-auto">
+          <p class="lead">I enjoy working with the hardware and software of computers of varying shapes and sizes. I've worked with little microcontrollers like the Arduino Uno and Android phones, large systems like the ones in Los Alamos National Laboratory, and even robots!</p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">Starting June 2019, I will be working in Los Alamos National Laboratory in the High Performance Computing Division. </p>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-light" href="#">
+          <i class="fas fa-download mr-2"></i>
+          Download my resume!
+        </a>
+      </div>
     </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
-</div>
+  </section>
 
 </body>
 </html>
